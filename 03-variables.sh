@@ -11,4 +11,4 @@ sleep 10
 END_TIME=$(date +%s)
 
 echo "$START_TIME ::: $END_TIME"
-echo "how long sleep time is :: $(($END_TIME - $START_TIME))"
+echo "how long sleep time is :: $(($END_TIME - $START_TIME)) Seconds"
