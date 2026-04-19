@@ -9,4 +9,7 @@ echo "Hello $PER2"
 ################
 echo "enter user name::"
 read USER_NAME
-echo "HI $USER_NAME"
+echo "enter pswd::"
+read -s PSWD
+
+echo "HI $USER_NAME and ur pswd : $PSWD"
