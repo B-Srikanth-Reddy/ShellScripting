@@ -5,9 +5,9 @@ PER2=$2
 
 echo "Msg from $PER1 to $PER2"
 
-echo "All Variables passed to script::$@"
+echo "All Variables/args passed to script::$@"
 echo "no.of varaiables passed to script:: $#"
-echo "this is star:::$*"
+echo "merge args as asingle String:::$*"
 echo "Script Name :; $0"
 echo "PWD : $PWD"
 echo "Who is running Script:;; $USER"
